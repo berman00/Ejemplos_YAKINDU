@@ -1,0 +1,13 @@
+	GeneratorModel for yakindu::c {
+
+	const PROJECT : string = "embotelladora_mcu_gen"
+
+	statechart embotelladora {
+
+		feature Outlet {
+			targetProject = PROJECT
+			targetFolder = "source"
+		}
+	}
+}
+
